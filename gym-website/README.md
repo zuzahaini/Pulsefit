@@ -27,8 +27,3 @@ Notes & next steps
 - Replace placeholder images with your own photographer-provided photos for trainers and gallery.
 - Add a backend or form handling for real signups (the contact form is non-functional currently).
 - If you want animations of actual equipment motion (treadmill, kettlebell physics), I can add SVG animations or Lottie files.
-
-If you'd like, I can now:
-- Swap the color theme to a different palette.
-- Add more animated equipment (treadmill, kettlebell) or use Lottie animations.
-- Create downloadable assets or a production-ready ZIP file.
