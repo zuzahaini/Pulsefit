@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PulseFit Gym — Modern Minimal Gym</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-row">
+      <a class="logo" href="#">PulseFit</a>
+      <nav class="main-nav" id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#membership">Membership</a>
+        <a href="#offers">Offers</a>
+        <a href="#trainers">Trainers</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Strong body. Clear mind.</h1>
+          <p class="lead">Minimal. Modern. Results-driven. Join PulseFit — where certified trainers, smart plans, and the right environment help you reach your best.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#membership">Join Now</a>
+            <a class="btn btn-ghost" href="#trainers">Meet Trainers</a>
+          </div>
+          <ul class="stats">
+            <li><strong>120+</strong><span>Certified Trainers</span></li>
+            <li><strong>6000+</strong><span>Happy Members</span></li>
+            <li><strong>10</strong><span>Years of Excellence</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <!-- Animated dumbbell SVG -->
+          <svg class="dumbbell" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <g class="db-g" transform="translate(100 100)">
+              <rect x="-70" y="-10" width="140" height="20" rx="10" fill="var(--accent)" />
+              <g class="plate left" transform="translate(-90 0)">
+                <rect x="-6" y="-28" width="12" height="56" rx="2" fill="#111" opacity="0.9" />
+                <circle cx="0" cy="0" r="22" fill="#222" />
+                <circle cx="0" cy="0" r="14" fill="#111" />
+              </g>
+              <g class="plate right" transform="translate(90 0)">
+                <rect x="-6" y="-28" width="12" height="56" rx="2" fill="#111" opacity="0.9" />
+                <circle cx="0" cy="0" r="22" fill="#222" />
+                <circle cx="0" cy="0" r="14" fill="#111" />
+              </g>
+            </g>
+          </svg>
+          <div class="equipment-caption">Modern equipment • Clean space • Expert coaching</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="membership" class="section membership">
+      <div class="container">
+        <h2 class="section-title">Membership Plans</h2>
+        <p class="section-sub">Simple pricing. No hidden fees. Pick a plan and get started.</p>
+        <div class="cards">
+          <article class="card">
+            <h3>Basic</h3>
+            <p class="price">$19<span>/mo</span></p>
+            <ul>
+              <li>Access to gym equipment</li>
+              <li>1 group class/week</li>
+              <li>Locker access</li>
+            </ul>
+            <a class="btn btn-outline" href="#contact">Sign Up</a>
+          </article>
+
+          <article class="card featured">
+            <h3>Pro</h3>
+            <p class="price">$49<span>/mo</span></p>
+            <ul>
+              <li>All Basic features</li>
+              <li>3 personal training sessions</li>
+              <li>Nutrition plan</li>
+            </ul>
+            <a class="btn btn-primary" href="#contact">Get Pro</a>
+          </article>
+
+          <article class="card">
+            <h3>Elite</h3>
+            <p class="price">$89<span>/mo</span></p>
+            <ul>
+              <li>Unlimited PT</li>
+              <li>Advanced coaching</li>
+              <li>Recovery & sauna</li>
+            </ul>
+            <a class="btn btn-outline" href="#contact">Go Elite</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="offers" class="section offers">
+      <div class="container">
+        <h2 class="section-title">Current Offers</h2>
+        <div class="offer-grid">
+          <div class="offer-card">First month 50% off — Use code <strong>START50</strong></div>
+          <div class="offer-card">Refer a friend & get one month free</div>
+          <div class="offer-card">Student discount — 20% off verified IDs</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="trainers" class="section trainers">
+      <div class="container">
+        <h2 class="section-title">Certified Trainers</h2>
+        <p class="section-sub">Our team is certified, experienced, and motivating.</p>
+        <div class="trainers-grid">
+          <article class="trainer">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80" alt="Trainer 1" loading="lazy">
+            <h4>Jason Cole</h4>
+            <p>Strength & conditioning coach • NASM</p>
+          </article>
+
+          <article class="trainer">
+            <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=800&q=80" alt="Trainer 2" loading="lazy">
+            <h4>Maria Lopez</h4>
+            <p>Functional training • CrossFit Level 2</p>
+          </article>
+
+          <article class="trainer">
+            <img src="https://images.unsplash.com/photo-1594737625785-3b1b8a5efb5b?auto=format&fit=crop&w=800&q=80" alt="Trainer 3" loading="lazy">
+            <h4>Adam Nguyen</h4>
+            <p>Nutrition coach • Precision Nutrition</p>
+          </article>
+
+          <article class="trainer">
+            <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=800&q=80" alt="Trainer 4" loading="lazy">
+            <h4>Sofia Reed</h4>
+            <p>Personal training • Corrective exercise</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
+        <div>
+          <h3>Get in touch</h3>
+          <p>Visit us: 123 Fitness Ave, YourCity</p>
+          <p>Call: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+          <p>Email: <a href="mailto:hello@pulsefit.example">hello@pulsefit.example</a></p>
+        </div>
+        <form class="contact-form" action="#" onsubmit="return false;" aria-label="Contact form">
+          <input type="text" placeholder="Full name" required>
+          <input type="email" placeholder="Email" required>
+          <select>
+            <option>Interested in: Pro membership</option>
+            <option>Basic</option>
+            <option>Pro</option>
+            <option>Elite</option>
+          </select>
+          <button class="btn btn-primary">Request Info</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div>© <span id="year"></span> PulseFit. All rights reserved.</div>
+      <div class="social">Instagram • Facebook • Twitter</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
